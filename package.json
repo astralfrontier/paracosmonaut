@@ -24,6 +24,7 @@
   "homepage": "https://github.com/astralfrontier/paracosmonaut#readme",
   "dependencies": {
     "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
     "discord.js": "^11.5.1",
     "reflect-metadata": "^0.1.13"
   },
