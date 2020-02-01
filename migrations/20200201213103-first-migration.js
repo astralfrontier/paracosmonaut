@@ -15,7 +15,7 @@ exports.setup = function(options, seedLink) {
 };
 
 exports.up = function(db) {
-  db.createTable('logs', {
+  return db.createTable('logs', {
     created_on: 'timestamp',
     author: 'string',
     message: 'text'
@@ -23,7 +23,7 @@ exports.up = function(db) {
 };
 
 exports.down = function(db) {
-  db.dropTable('logs')
+  return db.dropTable('logs')
 };
 
 exports._meta = {
