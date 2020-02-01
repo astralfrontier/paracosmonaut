@@ -26,10 +26,14 @@
     "db-migrate": "^0.11.6",
     "db-migrate-pg": "^1.0.0",
     "discord.js": "^11.5.1",
+    "pg": "^7.18.1",
+    "ramda": "^0.26.1",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
     "@types/node": "^13.7.0",
+    "@types/pg": "^7.14.1",
+    "@types/ramda": "^0.26.40",
     "prettier": "^1.19.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.1.0",
