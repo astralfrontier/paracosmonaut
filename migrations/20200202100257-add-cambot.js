@@ -15,12 +15,11 @@ exports.setup = function(options, seedLink) {
 };
 
 exports.up = async function(db) {
-  await db.dropTable('logs')
   await db.createTable('cambot', {
     log_name: 'string',
     channel_id: 'string',
     start_message_id: 'string',
-    end_message_id: 'string'
+    stop_message_id: 'string'
   })
 };
 
