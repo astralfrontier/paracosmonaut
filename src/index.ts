@@ -1,7 +1,7 @@
 import { Client, Message } from 'discord.js';
 
-import db, { logMessage } from './db'
-import { iWasMentioned, messageWasFromMe } from './utils';
+import db from './db'
+import { messageWasFromMe } from './utils';
 import { handleCommand } from './commands';
 
 const client = new Client();
